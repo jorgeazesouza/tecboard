@@ -1,8 +1,8 @@
-import './index.css'
+import './fieldset.style.css'
 
 export function Fieldset({ children }) {
   return (
-    <fieldset>
+    <fieldset className="fieldset">
       {children}
     </fieldset>
   )
