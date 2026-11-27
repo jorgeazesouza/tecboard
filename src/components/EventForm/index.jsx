@@ -38,8 +38,8 @@ export function EventForm() {
           <Label htmlFor="eventTheme">
             Tema do evento
           </Label>
-          <Select
-            id="eventTheme"
+          <Select 
+            id="eventTheme" 
             name="eventTheme"
           >
           </Select>
