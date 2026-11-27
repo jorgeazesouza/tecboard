@@ -4,6 +4,8 @@ import { FormTitle } from '../FormTitle'
 import { Fieldset } from '../Fieldset'
 import { Label } from '../Label'
 import { InputForm } from '../InputForm'
+import { Select } from '../Select'
+import { Button } from '../Button'
 
 
 export function EventForm() {
@@ -33,8 +35,18 @@ export function EventForm() {
           />
         </Fieldset>
         <Fieldset>
-          
+          <Label htmlFor="eventTheme">
+            Tema do evento
+          </Label>
+          <Select
+            id="eventTheme"
+            name="eventTheme"
+          >
+          </Select>
         </Fieldset>
+      </div>
+      <div className="actions">
+        <Button>Criar evento</Button>
       </div>
     </form>
   )
