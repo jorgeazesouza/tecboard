@@ -1,4 +1,5 @@
 import './App.css'
+import { Banner } from './components/Banner'
 import { EventForm } from './components/EventForm'
 import { FormTheme } from './components/FormTheme'
 
@@ -37,9 +38,7 @@ function App() {
       <header>
         <img src="/logo.png" alt="" />
       </header>
-      <section>
-        <img src="/banner.png" alt="" />
-      </section>
+      <Banner/>
       <EventForm/>
       <section>
         <FormTheme theme={themes[0]} />
